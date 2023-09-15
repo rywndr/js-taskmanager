@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+form input[type='text'],
+form textarea,
+form input[type='date'] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+form button[type='submit'] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button[type='submit']:hover {
+  background-color: #3e8e41;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: none;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+table td.actions {
+  text-align: center;
+}
+
+table td.actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+table td.actions button.complete {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+table td.actions button.complete:disabled {
+  background-color: #3e8e41;
+}
+
+table td.actions button.edit {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+table td.actions button.delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+table td.actions button:hover {
+  background-color: #3a3a3a;
+}
